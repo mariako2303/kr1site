@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Сладости – главная</title>
+</head>
+
+<body>
+    <nav>
+        <ul style="list-style:none; display:flex; align-items:center; gap:15px; padding:0; margin:0; background-color: #E6E6FA;">
+            <li>
+                <a href="index.html">
+                    <img src="C:\Users\Мария\OneDrive\Изображения\logo.png" alt="Главная" style="height:50px; vertical-align:middle;">
+                </a>
+            </li>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="order.html">Заказ</a></li>
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="https://zanzanshop.ru" target="_blank">Внешний
+                    сайт</a></li>
+            <li><a href="zadacha.html"><b>Задача</b></a></li>
+        </ul>
+    </nav>
+    <hr>
+
+
+<h2>Оформление заказа</h2>
+
+    <form action="https://www.bing.com/search?" method="get" target="_blank">
+    
+        <p>ФИО получателя: <input type="text" name="name" value="" required></p>
+        <p>Телефон: <input type="text" name="phone" value="" required></p>
+        <p>Электронная почта: <input type="text" name="email" value="" required></p>
+        <p>Адрес: <input type="text" name="adress" value="" required></p>
+
+        <p>Выберите тип доставки:<br>
+            <input type="radio" name="model_radio" value="pickup" checked> Самовывоз (бесплатно)
+            <input type="radio" name="model_radio" value="sdek"> СДЭК (+450р)
+            <input type="radio" name="model_radio" value="post"> Почта России (+400р)
+            <input type="radio" name="model_radio" value="boxberry">Boxberry (+500р)
+        </p>
+
+        <p>Выберите модель носков:<br>
+            <input type="checkbox" name="sweets1" value="yes" checked> Nerds
+            <input type="checkbox" name="sweets2" value="yes"checked> Maltesers
+            <input type="checkbox" name="sweets3" value="yes"checked> KitKat
+            <input type="checkbox" name="sweets4" value="yes"checked> Oreo
+        </p>
+
+        <p>Дополнительно:<br>
+            <input type="checkbox" name="gift" value="yes" checked> Подарочная упаковка
+        </p>
+        <p>Пароль для подтверждения: <input type="password" name="password" value=""></p>
+        <p>Дата заказа: <input type="date" name="order_date" value="2025-10-25"></p>
+
+        <input type="hidden" name="order_id" value="001">
+
+        <p>
+            <input type="reset" value="Очистить">
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+
+</html>
