@@ -1,1 +1,1 @@
- https://mariako2303.github.io/kr1site/index.html
+https://mariako2303.github.io/BWT/index.html
